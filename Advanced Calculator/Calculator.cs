@@ -22,14 +22,12 @@ namespace Advanced_Calculator
 
             if (!textConvertor.CheckCharacters(input))
             {
-                Console.WriteLine("The input is invalid.");
-                throw new InvalidCastException();
+                throw new InvalidCastException("The input is invalid.");
             }
 
             if (!textConvertor.CheckSequence(input))
             {
-                Console.WriteLine("Invalid Sequence!");
-                throw new InvalidDataException();
+                throw new InvalidDataException("Invalid Sequence!");
             }
 
             if (input[0] == '+')

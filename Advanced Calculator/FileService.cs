@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
+﻿using System.IO;
 
 namespace Advanced_Calculator
 {
@@ -12,7 +9,7 @@ namespace Advanced_Calculator
             if(!File.Exists(path))
                 throw new FileNotFoundException();
 
-            var text = System.IO.File.ReadAllText(path);
+            var text = File.ReadAllText(path);
 
             return text;
         }

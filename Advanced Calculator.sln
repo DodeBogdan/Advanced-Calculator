@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced Calculator", "Advanced Calculator\Advanced Calculator.csproj", "{FBEFF671-F129-429E-BDD2-DFA9F749FB3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced Calculator", "Advanced Calculator\Advanced Calculator.csproj", "{FBEFF671-F129-429E-BDD2-DFA9F749FB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced Calculator.Tests", "Advanced Calculator.Tests\Advanced Calculator.Tests.csproj", "{DC4C9553-2FF9-4823-B981-FAEB94A970EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced Calculator.Tests", "Advanced Calculator.Tests\Advanced Calculator.Tests.csproj", "{DC4C9553-2FF9-4823-B981-FAEB94A970EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2466ACC2-B7EB-44EB-8D03-F328BE75A713}"
 	ProjectSection(SolutionItems) = preProject

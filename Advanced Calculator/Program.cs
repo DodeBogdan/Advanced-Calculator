@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text.RegularExpressions;
 
 namespace Advanced_Calculator
 {
@@ -10,12 +6,20 @@ namespace Advanced_Calculator
     {
         public static void Main()
         {
-           Calculator calculator = new Calculator(new TextConvertor());
-           var result = calculator.Calculate("../../../../CalculatorInput.txt", new FileService());
+            Calculator calculator = new Calculator(new TextConvertor());
+            try
+            {
+                var result = calculator.Calculate("../../../../CalculatorInput.txt", new FileService());
 
-           Console.WriteLine(result);
+                Console.WriteLine(result);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
-           Console.Read();
+
+            Console.Read();
         }
     }
 }

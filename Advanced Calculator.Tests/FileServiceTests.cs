@@ -20,7 +20,7 @@ namespace Advanced_Calculator.Tests
             //act
             try
             {
-                var result = fileService.GetInputFromFile("randomPath");
+                fileService.GetInputFromFile("randomPath");
 
                 Assert.Fail("Expected exception was not thrown.");
             }
